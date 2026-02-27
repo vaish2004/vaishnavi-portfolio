@@ -4,6 +4,7 @@ import { NAV_LINKS } from "../../data/portfolioData";
 import "./Navbar.css";
 import SunnyIcon from '@mui/icons-material/Sunny';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
+import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Navbar() {
   const { theme, toggleTheme } = useTheme();
@@ -44,6 +45,7 @@ export default function Navbar() {
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
+          <MenuIcon  style={{color:"white"}}/>
           {/* <span></span>
           <span></span>
           <span></span> */}
