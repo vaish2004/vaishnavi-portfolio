@@ -11,7 +11,8 @@ export default function Architecture() {
         <div className="architecture__grid">
           {ARCH_CARDS.map((item) => (
             <div key={item.title} className="card architecture__card">
-              <span className="architecture__accent-bar" aria-hidden="true" />
+              <span className="architecture__accent-bar" />
+               {/* aria-hidden="true" */}
               <div className="architecture__body">
                 <h4 className="architecture__title">{item.title}</h4>
                 <p className="architecture__desc">{item.desc}</p>

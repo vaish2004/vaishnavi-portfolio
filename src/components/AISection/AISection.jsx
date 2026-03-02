@@ -13,8 +13,8 @@ export default function AISection() {
           {AI_CARDS.map((card) => (
             <div key={card.title} className="card ai-section__card">
               <div className="ai-section__card-top">
-                <span className="ai-section__icon" aria-hidden="true">
-                  {card.icon}
+                <span className="ai-section__icon">
+                 {card.icon}
                 </span>
                 <h3 className="ai-section__title">{card.title}</h3>
               </div>

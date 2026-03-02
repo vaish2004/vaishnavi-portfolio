@@ -3,7 +3,7 @@
  /* @tailwind base;
 @tailwind components; */
 @tailwind utilities;
-/* ── CSS Variables */
+
 :root {
   --accent: #6c63ff;
   --accent-33: rgba(108, 99, 255, 0.2);

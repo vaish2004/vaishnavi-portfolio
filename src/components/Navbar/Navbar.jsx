@@ -46,9 +46,7 @@ export default function Navbar() {
           aria-label="Toggle menu"
         >
           <MenuIcon  style={{color:"white"}}/>
-          {/* <span></span>
-          <span></span>
-          <span></span> */}
+          
         </button>
       </div>
     </nav>
