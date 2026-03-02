@@ -32,7 +32,7 @@ export default function Hero() {
             target="_blank"
             rel="noreferrer"
             className="btn-secondary"
-            style={{color:"white", border:"1px solid gray", borderRadius:"8px 12px"}}
+            style={{color:"white"  }}
           >
             GitHub 
           </a>
